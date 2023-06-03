@@ -1,0 +1,41 @@
+{
+  "name": "vite-react-starter",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "nodemon src/server/main.js -w src/server",
+    "start": "NODE_ENV=production node src/server/main.js",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^8.4.0",
+    "body-parser": "^1.20.2",
+    "bootstrap": "^5.2.3",
+    "connect-sqlite3": "^0.9.13",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^9.0.0",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.4",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.11.2",
+    "sqlite3": "^5.1.6",
+    "vite-express": "*",
+    "vite-plugin-compression": "^0.5.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.0.1",
+    "nodemon": "^2.0.20",
+    "vite": "^4.3.9"
+  }
+}
